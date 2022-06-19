@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #edf2f4;
+  max-width: 400px;
+  border-radius: 2px;
+  padding: 12px;
+  box-shadow: 4px 4px 6px #202235;
+}
+
+.detail-contact {
+  width: 250px;
+}
+
+.photo {
+  display: flex;
+  align-self: flex-start;
+}
+
+img {
+  width: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+p {
+  margin: 0;
+  color: #2b2d42;
+}
+
+p.name {
+  font-weight: bold;
+}
+
+p.phone {
+  margin: 8px;
+}

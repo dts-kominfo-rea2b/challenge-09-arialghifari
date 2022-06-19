@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Pangolin&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
 .App {
   text-align: center;
-  display: flex;
 }
